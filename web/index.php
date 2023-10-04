@@ -1,5 +1,5 @@
 <?php
-$correct_password = 'I6m,61\@I\z+%vi:w5FfY';
+$correct_password = 'teste';
 $allowed_ips = array(
     '127.0.0.1',
     '::1',
