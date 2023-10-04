@@ -1,0 +1,133 @@
+body {
+  font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size: small;
+  margin: 20px 0 50px;
+  text-align: center;
+  background-color: #336699;
+  color: #616060;
+}
+
+h1 {
+    color: #000;
+}
+
+#footer {
+  clear: both;
+  color: #999999;
+  width: 640px;
+  padding-bottom: 90px;
+  font-size: 85%;
+}
+
+.labelinput:before {
+    background: none;
+}
+
+#container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #336699;
+}
+
+#container {
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 204, 204);
+  margin: 0 auto;
+  text-align: center;
+  width: 640px;
+  padding: 5rem;
+}
+
+#cssmenu {
+    visibility: hidden;
+}
+
+#cssmenu ul,li,a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#cssmenu {
+    background: #6699CC;
+  }
+
+#cssmenu {
+    width: auto;
+    border-bottom: 3px solid #336699;
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    line-height: 1;
+    padding: 2.5rem;
+    margin: 2.5rem;
+  }
+  #cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+      border-bottom-width: 0px;
+      border-bottom-style: none;
+      border-bottom-color: currentcolor;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  #cssmenu::after, #cssmenu > ul::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+.labels {
+    list-style: none;
+}
+
+.form-add {
+    background-color: #fff;
+}
+
+.labelinput input {
+	background: #fff url(./shadow.gif) repeat-x top;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #c3c3c3;
+	border-right: 1px solid #c3c3c3;
+	border-top: 1px solid #7c7c7c;
+	color: #333;
+	font-size: 100%;
+	margin: 0;
+	padding: 2px 0;
+}
+
+
+.labelinput:focus input:focus {
+    background-color: #ccdced;
+}
+
+.submitbutton {
+    padding: 8px 30px 8px;
+    cursor: pointer;
+    color: #333;
+    text-align: center;
+}

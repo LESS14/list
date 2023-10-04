@@ -1,0 +1,13 @@
+{
+  "comments": {
+    "protocol": "HTTPS is not supported! Endpoints must be accessible over HTTP.",
+  },
+  "endpoints": {
+    "internet": {
+      "url": ""
+    },
+    "hosted": {
+      "url": ""
+    }
+  }
+}
